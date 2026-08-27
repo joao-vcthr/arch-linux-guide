@@ -9,7 +9,7 @@ Fine-tuning once the compositor, shell, and display manager are all up and runni
 - SDDM configuration (theming and customization)
 ## 6.1. Hyprland Configuration (Go to [Hyprland Wiki](https://wiki.hyprland.org/) to learn more)
 
-* create your hyprland configuration files at ~/.config/hypr or [clone this config](https://github.com/joao-vcthr/dotfiles/tree/main/dot_config/hypr)
+* create your hyprland configuration files at ~/.config/hypr or [clone this config](https://github.com/joao-vcthr/hypr-conf)
 * Reboot the system
 
 ## 6.2. Noctalia Configuration
