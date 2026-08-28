@@ -15,38 +15,38 @@ Fine-tuning once the compositor, shell, and display manager are all up and runni
 ## 6.2. Noctalia Configuration
 
 Some suggestions for configuring Noctalia:
-- Appearence
-	- Theme Mode: Dark
-	- Pallete Source: Community
-	- Community Pallete: Breeze
-- Wallpaper
-	- Transition Duration: 500
-- Templates
-	- Built-in Templates: Alacritty, Btop
-- Dock
-	- Enabled: On
-	- Auto-Hide: On
-	- Reserve Space: Off
-	- Launcher Icon: Start
-	- Icon Size: 38
-- Location
-	- Auto-Locate (IP): On
-- Power
-	- Lock: 300s
-	- Screen Off: 600s
-- Bar: default
-	- Thickness: 28
+
+### Appearance
+
+In this section you can change your theme mode (Dark, Light, etc.), your shell colors (Palette Colors), fonts, animations, and so on.
+
+### Wallpaper
+
+In this section you can change your wallpaper settings such as wallpaper transition duration, effects, wallpaper rotation, and much more.
+
+### Templates
+
+In this section you can add template themes to other apps so they can match your Noctalia visual identity.
+
+### Dock
+
+In this section you can enable and set up your Noctalia dock. By default it stays on the bottom of your screen, but you can change the position, enable or disable auto-hide, toggle the launch button, and more.
+
+### Power
+
+In this section you can set up a lot of power-related options, especially "idle behaviors" like locking the system, turning off the screen, and suspending after some time.
+
 
 ## 6.3. SDDM Configuration (optional, Go to [SDDM Wiki](https://wiki.archlinux.org/title/SDDM) to learn more)
 
-- Install the dependecies 
+- Install the dependencies 
 ```bash
 sudo pacman -S --noconfirm --needed qt6-svg qt6-virtualkeyboard qt6-multimedia qt6-multimedia-ffmpeg qt6-declarative qt6-5compat
 ```
-- Install [SDDM Silent theme](https://github.com/uiriansan/SilentSDDM):
-	```bash
-	git clone -b main --depth=1 https://github.com/uiriansan/SilentSDDM && cd SilentSDDM && ./install.sh
-	```
+- Install [SilentSDDM theme](https://github.com/uiriansan/SilentSDDM):
+```bash
+git clone -b main --depth=1 https://github.com/uiriansan/SilentSDDM && cd SilentSDDM && ./install.sh
+```
  - Edit .conf file (optional)
 
 ---
