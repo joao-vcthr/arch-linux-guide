@@ -92,7 +92,7 @@ flatpak install -y flathub com.obsproject.Studio
 
 HyprCapture:
 ```bash
-sudo pacman -S --noconfirm --needed cmake pkg-config nlohmann-json layer-shell-qt wl-clipboard
+sudo pacman -S --noconfirm --needed cmake pkg-config nlohmann-json layer-shell-qt wl-clipboard gpu-screen-recorder
 ```
 
 ```bash
