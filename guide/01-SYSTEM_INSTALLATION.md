@@ -6,8 +6,7 @@
 
 ## 1.1. Preparing the Installation Environment (Arch ISO)
 
-  - For a list of all keymaps run `localectl list-keymaps`
-  - Load your keyboard layout (the Brazilian Portuguese will be used as example):
+  - Load your keyboard layout, the Brazilian Portuguese will be used as example. For a list of all keymaps run `localectl list-keymaps`:
     ```bash
     loadkeys br-abnt2
     ```
