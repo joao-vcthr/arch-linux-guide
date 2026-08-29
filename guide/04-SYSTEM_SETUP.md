@@ -10,7 +10,7 @@ Before the graphical environment, or applications, it's worth getting the base s
 sudo pacman -Syu
 ```
 
-## 4.2. Mirror Optimization (Reflector)
+## 4.2. Mirror Optimization with Reflector (Optional)
 
 Reflector finds and ranks the fastest mirrors for your location, which speeds up every install from here on.
 

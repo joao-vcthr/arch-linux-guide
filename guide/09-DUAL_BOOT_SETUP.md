@@ -22,6 +22,9 @@ sudo mount /dev/sda1 /mnt/win-esp-temp
 sudo cp -r /mnt/win-esp-temp/EFI/Microsoft /boot/EFI/
 ```
 
+> [!NOTE]
+> This creates a copy of the Windows boot files on the same disk where Arch Linux is installed. Because of this, your UEFI firmware will likely add "Windows Boot Manager" to its boot menu as the first boot option on that disk — meaning your computer may boot straight into Windows instead of showing the systemd-boot selection screen. To fix this, you'll need to reset Arch Linux (systemd-boot) as the first boot option, so the selection screen appears and lets you choose between systems on every boot.
+
 ## 9.5. List Check the files
 
 List the Windows boot files:
