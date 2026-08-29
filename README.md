@@ -2,7 +2,7 @@
 
 A personal, step-by-step guide for installing Arch Linux from scratch, all the way to a fully working system running Hyprland + Noctalia and my everyday applications.
 
-The guide is paired with shell scripts that automate the steps where automation made sense. My personal dotfiles (Hyprland, Alacritty, etc.) are kept in a separate repository: [dotfiles](https://github.com/joao-vcthr/dotfiles).
+The guide is paired with shell scripts that automate the post-installation steps where automation made sense.
 
 ## Is this guide for you?
 
@@ -36,16 +36,37 @@ The guide is organized like building a house, from the foundation up:
 
 Each numbered file in `guide/` builds on the previous one — skipping ahead may cause later steps to fail. Sections 8 and 9 are independent appendices that can be done at any point.
 
+This guide focuses exclusively on that manual installation process. The official [archinstall](https://wiki.archlinux.org/title/Archinstall) script exists as an automated alternative, but it isn't covered here.
+
 ## Repository layout
 
 ```
 .
 ├── guide/       # step-by-step documentation, one file per section
-└── scripts/     # automation scripts, mirroring the guide's structure
+└── scripts/     # post-install automation scripts, mirroring the guide's structure
 ```
 
-The `scripts/` folder mirrors the guide's sections (`system-installation/`, `drivers-installation/`, `security/`, `system-setup/`, `graphical-environment/`, `graphical-environment-configuration/`, `applications-installation/`, `applications-configuration/`), plus a `helpers/` folder with shared utility scripts used across the others. Each script includes a short description of its purpose at the top.
+The `scripts/` folder mirrors the guide's post-install sections (`drivers-installation/`, `security/`, `system-setup/`, `graphical-environment/`, `graphical-environment-configuration/`, `applications-installation/`, `applications-configuration/`), plus a `helpers/` folder with shared utility scripts used across the others. Each script includes a short description of its purpose at the top.
 
-## Status
+## Using the scripts
 
-This repository is private and under active development. Follow the numbered order in `guide/00-INDEX.md` for a fresh install.
+These scripts only cover post-installation steps, so by the time you'd use them your base system is already up and running with network access — no USB drive juggling required. Just install `git` and clone the repository directly:
+
+```bash
+sudo pacman -S --needed --noconfirm git
+git clone https://github.com/joao-vcthr/arch-linux-guide.git
+cd arch-linux-guide/scripts
+```
+
+From there, run scripts directly with `bash`, without needing to make them executable first:
+
+```bash
+bash drivers-installation/install-video-drivers.sh
+```
+
+A few things worth keeping in mind:
+
+- Run the scripts in the same order as the guide's sections — later scripts often assume earlier steps already ran.
+- Scripts call `sudo` internally where needed and will prompt for your password.
+
+Follow the numbered order in `guide/00-INDEX.md` for a fresh install.
