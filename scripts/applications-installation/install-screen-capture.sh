@@ -20,4 +20,4 @@ hyprpm add https://github.com/gfhdhytghd/HyprCapture
 hyprpm enable hyprcapture
 hyprpm reload
 
-write_ok "Browsers installed!"
+write_ok "Screen Capture Tools installed!"

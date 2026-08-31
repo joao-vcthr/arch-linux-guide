@@ -20,5 +20,5 @@ bash install-hardware-utils.sh
 bash install-tuis.sh
 bash install-cli-tools.sh
 bash install-media.sh
-bash install-programmin-languages.sh
+bash install-programming-languages.sh
 bash install-dev-tools.sh

@@ -9,6 +9,6 @@ source "$SCRIPT_DIR/../helpers/write-output.sh"
 source "$SCRIPT_DIR/../helpers/pkg-add.sh"
 
 write_running "Installing Browsers"
-pacman_pkg_add firefox chormium
+pacman_pkg_add firefox chromium
 
 write_ok "Browsers installed!"

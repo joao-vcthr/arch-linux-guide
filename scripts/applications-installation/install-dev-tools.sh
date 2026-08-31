@@ -11,4 +11,4 @@ source "$SCRIPT_DIR/../helpers/pkg-add.sh"
 write_running "Installing Development tools"
 pacman_pkg_add zed
 
-write_ok "Media Apps installed!"
+write_ok "Development tools installed!"

@@ -22,4 +22,4 @@ FONTS=(
 write_running "Installing Fonts"
 pacman_pkg_add "${FONTS[@]}"
 
-write_ok "Codecs installed!"
+write_ok "Fonts installed!"

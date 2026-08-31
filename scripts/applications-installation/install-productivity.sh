@@ -13,4 +13,4 @@ pacman_pkg_add thunderbird cosmic-text-editor obsidian
 
 flatpak install -y flathub io.github.Qalculate.qalculate-qt com.github.flxzt.rnote
 
-write_ok "Browsers installed!"
+write_ok "Productivity Apps installed!"
