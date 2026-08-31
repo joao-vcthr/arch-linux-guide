@@ -9,6 +9,6 @@ source "$SCRIPT_DIR/../helpers/write-output.sh"
 source "$SCRIPT_DIR/../helpers/pkg-add.sh"
 
 write_running "Installing Terminal"
-pacman_pkg_add alacritty
+pacman_pkg_add ghostty
 
 write_ok "Terminal installed!"
