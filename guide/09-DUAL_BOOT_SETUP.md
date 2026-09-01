@@ -30,7 +30,7 @@ sudo cp -r /mnt/win-esp-temp/EFI/Microsoft /boot/EFI/
 List the Windows boot files:
 
 ```bash
-ls /boot/EFI/Microsoft/Boot/
+sudo ls /boot/EFI/Microsoft/Boot/
 ```
 
 See if the "bootmgfw.efi" file is listed, if so, the operation was sucessful
