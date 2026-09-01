@@ -23,6 +23,11 @@ Kitty:
 sudo pacman -S --noconfirm --needed kitty
 ```
 
+Ghostty:
+```bash
+sudo pacman -S --noconfirm --needed kitty
+```
+
 ## 7.2. File Explorer
 
 Install Nautilus:
