@@ -20,39 +20,39 @@ This is optional and independent of the main sequence — it can be done at any 
 
 - Install the `sbctl` tool:
   ```bash
-  pacman -S sbctl
+  sudo pacman -S sbctl
   ```
 
 - Check Secure Boot status:
   ```bash
-  sbctl status
+  sudo sbctl status
   ```
 - Confirm the 'Setup Mode' field shows 'Enabled'
 - Create new signing keys:
   ```bash
-  sbctl create-keys
+  sudo sbctl create-keys
   ```
 
 - Enroll the keys into UEFI:
   ```bash
-  sbctl enroll-keys -m
+  sudo sbctl enroll-keys -m
   ```
 
 - Sign the required boot files:
   ```bash
-  sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFI
-  sbctl sign -s /boot/EFI/systemd/systemd-bootx64.efi
-  sbctl sign -s /boot/vmlinuz-linux
+  sudo sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFI
+  sudo sbctl sign -s /boot/EFI/systemd/systemd-bootx64.efi
+  sudo sbctl sign -s /boot/vmlinuz-linux
   ```
 
 - Verify that the files are signed correctly:
   ```bash
-  sbctl verify
+  sudo sbctl verify
   ```
 
 - Check the final status:
   ```bash
-  sbctl status
+  sudo sbctl status
   ```
 
 - Reboot the system:
