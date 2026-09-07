@@ -9,6 +9,6 @@ source "$SCRIPT_DIR/../helpers/write-output.sh"
 source "$SCRIPT_DIR/../helpers/pkg-add.sh"
 
 write_running "Installing TUIs"
-pacman_pkg_add yazi btop
+pacman_pkg_add btop
 
 write_ok "TUIs installed!"
