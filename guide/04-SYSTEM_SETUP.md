@@ -66,6 +66,18 @@ sudo pacman -S --needed --noconfirm flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
+## 4.6. Codecs
+
+```bash
+sudo pacman -S --needed --noconfirm gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav gstreamer ffmpeg
+```
+
+## 4.7. Fonts
+
+```bash
+sudo pacman -S --needed --noconfirm ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-roboto-mono-nerd noto-fonts noto-fonts-emoji noto-fonts-cjk
+```
+
 ---
 
 **Next section:** [5. Graphical Environment →](05-GRAPHICAL_ENVIRONMENT.md)
