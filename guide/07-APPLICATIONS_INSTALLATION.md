@@ -25,12 +25,12 @@ sudo pacman -S --noconfirm --needed kitty
 
 Ghostty:
 ```bash
-sudo pacman -S --noconfirm --needed kitty
+sudo pacman -S --noconfirm --needed ghostty
 ```
 
 ## 7.2. File Explorer
 
-Install Nautilus:
+Nautilus:
 ```bash
 sudo pacman -S --noconfirm --needed nautilus
 ```
@@ -40,6 +40,11 @@ Define as Default File Explorer:
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 xdg-mime default org.gnome.Nautilus.desktop application/x-7z-compressed
 xdg-mime default org.gnome.Nautilus.desktop application/zip
+```
+
+Yazi:
+```bash
+sudo pacman -S --noconfirm --needed yazi
 ```
 
 ## 7.3. Browsers
@@ -61,9 +66,9 @@ Thunderbird:
 sudo pacman -S --noconfirm --needed thunderbird
 ```
 
-Cosmic Text Editor:
+Micro:
 ```bash
-sudo pacman -S --noconfirm --needed cosmic-text-editor
+sudo pacman -S --noconfirm --needed micro
 ```
 
 Qalculate:
@@ -86,6 +91,11 @@ sudo pacman -S --noconfirm --needed libreoffice-fresh
 Stirling PDF:
 ```bash
 yay -S --noconfirm --needed stirling-pdf-desktop
+```
+
+Zathura:
+```bash
+sudo pacman -S --noconfirm --needed zathura zathura-cb zathura-pdf-mupdf
 ```
 
 ## 7.6. Screen Capture
@@ -179,9 +189,9 @@ source "$HOME/.cargo/env"
 
 ## 7.12. Development Tools
 
-Zed:
+NeoVim:
 ```bash
-sudo pacman -S --noconfirm --needed zed
+sudo pacman -S --noconfirm --needed nvim
 ```
 
 VSCode:
