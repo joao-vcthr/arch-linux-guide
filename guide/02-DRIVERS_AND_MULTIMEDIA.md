@@ -31,18 +31,6 @@ Enable the services at the user level:
 systemctl --user enable --now pipewire.service pipewire-pulse.socket wireplumber.service
 ```
 
-## 2.3. Codecs
-
-```bash
-sudo pacman -S --needed --noconfirm gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav gstreamer ffmpeg
-```
-
-## 2.4. Fonts
-
-```bash
-sudo pacman -S --needed --noconfirm ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-roboto-mono-nerd noto-fonts noto-fonts-emoji noto-fonts-cjk
-```
-
 ---
 
 **Next section:** [3. Security Configuration →](03-SECURITY_CONFIGURATION.md)
