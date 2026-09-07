@@ -9,6 +9,7 @@ source "$SCRIPT_DIR/../helpers/write-output.sh"
 source "$SCRIPT_DIR/../helpers/pkg-add.sh"
 
 write_running "Installing Development tools"
-pacman_pkg_add zed
+pacman_pkg_add nvim
+aur_pkg_add visual-studio-code-bin
 
 write_ok "Development tools installed!"
