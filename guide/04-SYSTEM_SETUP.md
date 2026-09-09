@@ -78,6 +78,11 @@ sudo pacman -S --needed --noconfirm gst-plugins-good gst-plugins-bad gst-plugins
 sudo pacman -S --needed --noconfirm ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-roboto-mono-nerd noto-fonts noto-fonts-emoji noto-fonts-cjk
 ```
 
+## 4.8. Qt Dependencies
+```bash
+sudo pacman -S --needed --noconfirm qt6-svg qt6-virtualkeyboard qt6-multimedia qt6-multimedia-ffmpeg qt6-declarative qt6-5compat
+```
+
 ---
 
 **Next section:** [5. Graphical Environment →](05-GRAPHICAL_ENVIRONMENT.md)
