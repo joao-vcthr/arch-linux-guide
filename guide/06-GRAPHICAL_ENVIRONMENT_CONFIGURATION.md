@@ -39,15 +39,11 @@ In this section you can set up a lot of power-related options, especially "idle 
 
 ## 6.3. SDDM Configuration (optional, Go to [SDDM Wiki](https://wiki.archlinux.org/title/SDDM) to learn more)
 
-- Install the dependencies 
-```bash
-sudo pacman -S --noconfirm --needed qt6-svg qt6-virtualkeyboard qt6-multimedia qt6-multimedia-ffmpeg qt6-declarative qt6-5compat
-```
 - Install [SilentSDDM theme](https://github.com/uiriansan/SilentSDDM):
 ```bash
 git clone -b main --depth=1 https://github.com/uiriansan/SilentSDDM && cd SilentSDDM && ./install.sh
 ```
- - Edit .conf file (optional)
+- Edit .conf file (optional)
 
 ---
 
