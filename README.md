@@ -1,6 +1,6 @@
 # arch-linux-guide
 
-A personal, step-by-step guide for installing Arch Linux from scratch, all the way to a fully working system running Hyprland + Noctalia and my everyday applications.
+A personal, step-by-step guide for installing Arch Linux from scratch, all the way to a fully working system running Hyprland + Noctalia and everyday applications.
 
 The guide is paired with shell scripts that automate the post-installation steps where automation made sense.
 
@@ -50,10 +50,14 @@ The `scripts/` folder mirrors the guide's post-install sections (`drivers-instal
 
 ## Using the scripts
 
-These scripts only cover post-installation steps, so by the time you'd use them your base system is already up and running with network access — no USB drive juggling required. Just install `git` and clone the repository directly:
+These scripts only cover post-installation steps (from step 02 and beyond), so by the time you'd use them your base system is already up and running with network access. Just clone the repository directly:
+
+> Git should be already installed at this point, but if it isn't just run:
+> ```bash
+> sudo pacman -S --needed --noconfirm git
+> ```
 
 ```bash
-sudo pacman -S --needed --noconfirm git
 git clone https://github.com/joao-vcthr/arch-linux-guide.git
 cd arch-linux-guide/scripts
 ```
