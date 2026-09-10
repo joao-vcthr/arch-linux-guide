@@ -1,8 +1,8 @@
-# 2. Drivers and Multimedia
+# 2. Drivers Installation
 
 [← Back to index](00-INDEX.md) | [← Previous: System Installation](01-SYSTEM_INSTALLATION.md)
 
-After rebooting and logging in with your user, install the packages that get the hardware working: video, audio, and codecs.
+After rebooting and logging in with your user, install the packages that get the hardware working: video, audio.
 
 ## 2.1. Video Drivers and Tools (AMD)
 
